@@ -5,6 +5,8 @@ I'm a passionate <b>Software Engineer</b> experienced in <b>Java</b>, <b>C#</b>,
 
 - 🌱 I’m currently learning **Langchain, Semantic Kernel**
 
+- 📫 How to reach me **sedaayeler@gmail.com**
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/sedayeler" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sedayeler" height="30" width="40" /></a>
@@ -17,6 +19,6 @@ I'm a passionate <b>Software Engineer</b> experienced in <b>Java</b>, <b>C#</b>,
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sedayeler&show_icons=true&locale=en" alt="sedayeler" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sedayeler&" alt="sedayeler" /></p>
+
 
 
