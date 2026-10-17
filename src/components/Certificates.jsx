@@ -44,7 +44,7 @@ export default function Certificates() {
 
   return (
     <section id="sertifikalar" className="section">
-      <SectionHead no="05" title="Sertifikalar" />
+      <SectionHead title="Sertifikalar" />
       <ul className="cert-list">
         {CERTIFICATES.map((c) => (
           <li key={c.title}>

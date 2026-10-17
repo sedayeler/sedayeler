@@ -9,6 +9,8 @@ import Certificates from './components/Certificates.jsx';
 import Contact from './components/Contact.jsx';
 import SectionBoundary from './components/SectionBoundary.jsx';
 import BackToTop from './components/BackToTop.jsx';
+import { ArrowUpRight } from './components/Icons.jsx';
+import { LINKS } from './data.js';
 
 export default function App() {
   const root = useRef(null);
@@ -89,6 +91,13 @@ export default function App() {
           </SectionBoundary>
           <footer className="footer">
             <span>© 2026 Seda Yeler</span>
+            <nav className="footer-links" aria-label="Sosyal bağlantılar">
+              {LINKS.map((l) => (
+                <a key={l.label} href={l.href} target="_blank" rel="noopener noreferrer">
+                  {l.label} <ArrowUpRight size={14} />
+                </a>
+              ))}
+            </nav>
           </footer>
         </div>
       </div>

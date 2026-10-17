@@ -9,7 +9,7 @@ export default function Projects() {
 
   return (
     <section id="projeler" className="section">
-      <SectionHead no="02" title="Projeler" />
+      <SectionHead title="Projeler" />
       <div className="proj-layout">
         <div className="proj-list">
           {PROJECTS.map((p, i) => (

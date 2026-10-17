@@ -23,7 +23,8 @@ export default function Tech() {
   return (
     <section id="yigin" className="section section-tech">
       <div className="wrap">
-        <SectionHead no="03" title="Teknolojiler" />
+        <SectionHead title="Teknolojiler" />
+        <div className="tech-rule" aria-hidden="true" />
       </div>
 
       <div className="marquees">

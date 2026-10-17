@@ -4,7 +4,9 @@ export default function Header() {
   return (
     <header className="header">
       <a href="#top" className="brand">
-        <span className="brand-mark">S</span>
+        <span className="brand-mark" aria-hidden="true">
+          SY
+        </span>
         Seda Yeler
       </a>
       <nav className="nav" aria-label="Bölümler">

@@ -118,8 +118,8 @@ export const CERTIFICATES = [
 ];
 
 export const LINKS = [
-  { label: 'GitHub', href: 'https://github.com/sedayeler' },
   { label: 'LinkedIn', href: 'https://linkedin.com/in/sedayeler' },
+  { label: 'GitHub', href: 'https://github.com/sedayeler' },
   { label: 'Medium', href: 'https://medium.com/@sedaayeler' },
 ];
 

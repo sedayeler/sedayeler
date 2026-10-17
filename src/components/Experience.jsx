@@ -8,7 +8,7 @@ export default function Experience() {
 
   return (
     <section id="deneyim" className="section">
-      <SectionHead no="01" title="Deneyim" aside="2024 — 2026" />
+      <SectionHead title="Deneyim" aside="2024 — 2026" />
       <div className="exp-list">
         {EXPERIENCE.map((job, i) => {
           const isOpen = open === i;

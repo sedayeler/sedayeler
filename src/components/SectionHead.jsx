@@ -1,10 +1,8 @@
-export default function SectionHead({ no, title, aside }) {
+export default function SectionHead({ title, aside }) {
   return (
     <div className="section-head">
-      <span>
-        ( {no} ) {title}
-      </span>
-      <span>{aside}</span>
+      <h2 className="section-title">{title}</h2>
+      {aside && <span>{aside}</span>}
     </div>
   );
 }

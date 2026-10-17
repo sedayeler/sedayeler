@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
-import { EMAIL, LINKS } from '../data.js';
+import { EMAIL } from '../data.js';
 import SectionHead from './SectionHead.jsx';
-import { ArrowUpRight, Copy } from './Icons.jsx';
+import { Copy } from './Icons.jsx';
 
 // E-posta adresine tıklayınca Gmail'de yeni ileti penceresi açılır, alıcı kısmı hazır gelir.
 const GMAIL_COMPOSE = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(EMAIL)}`;
@@ -25,7 +25,8 @@ export default function Contact() {
 
   return (
     <section id="iletisim" className="section section-contact">
-      <SectionHead no="06" title="İletişim" />
+      <SectionHead title="İletişim" />
+      <div className="contact-rule" aria-hidden="true" />
       <h2 className="contact-title">
         Hadi <em>tanışalım</em>
       </h2>
@@ -38,19 +39,6 @@ export default function Contact() {
           <Copy />
           <span aria-live="polite">{copied ? 'Kopyalandı' : 'Kopyala'}</span>
         </button>
-      </div>
-
-      <div className="contact-links">
-        {LINKS.map((l) => (
-          <a
-            key={l.label}
-            className="link"
-            href={l.href}
-            {...(l.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-          >
-            {l.label} <ArrowUpRight />
-          </a>
-        ))}
       </div>
     </section>
   );
