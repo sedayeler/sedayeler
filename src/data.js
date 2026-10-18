@@ -84,7 +84,7 @@ export const PROJECTS = [
   },
   {
     name: 'Bankacılık Sistemi',
-    desc: 'Müşteri, hesap, banka kartı ve kredi kartı yönetimini kapsayan, temel bankacılık işlemlerinin gerçekleştirilebildiği bir sistem.',
+    desc: 'Müşteri, hesap, banka kartı ve kredi kartı yönetimini kapsayan, temel bankacılık işlemlerinin gerçekleştirildiği bir sistem.',
     stack: ['C#', 'ASP.NET Core Web API', 'Entity Framework Core', 'PostgreSQL'],
     repo: 'https://github.com/sedayeler/banking-system',
   },
@@ -108,7 +108,7 @@ export const MARQUEE_2 = ['PostgreSQL', 'SQL Server', 'Redis', 'RabbitMQ', 'Lang
 // image verilirse satıra tıklayınca sertifika görseli açılır (görseller public/certificates içinde).
 export const CERTIFICATES = [
   {
-    title: 'AWS Academy Graduate - AWS Academy Cloud Foundations – Amazon Web Services (AWS)',
+    title: 'AWS Academy Cloud Foundations – Amazon Web Services (AWS)',
   },
   {
     title: 'HCCDA - Tech Essentials – Huawei Cloud',
